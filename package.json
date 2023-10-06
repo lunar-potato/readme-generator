@@ -1,0 +1,15 @@
+{
+  "name": "readme-generator",
+  "description": "A command-line application which dynamically generates a README.md file based on the input about your project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gwyneth",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  }
+}
