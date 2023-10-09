@@ -68,16 +68,16 @@ function init() {
       // Adding license file link based on chosen license
       switch (userData.license) {
         case "MIT":
-          userData.licenseFileLink = "path/to/MIT/LICENSE.txt";
+          userData.licenseFileLink = "./LICENSE";
           break;
         case "GNU GPL v3":
-          userData.licenseFileLink = "path/to/GPL/LICENSE.txt";
+          userData.licenseFileLink = "./LICENSE";
           break;
         case "Apache 2.0":
-          userData.licenseFileLink = "path/to/Apache/LICENSE.txt";
+          userData.licenseFileLink = "./LICENSE";
           break;
         default:
-          userData.licenseFileLink = "path/to/other/LICENSE.txt";
+          userData.licenseFileLink = "./LICENSE";
           break;
       }
 
