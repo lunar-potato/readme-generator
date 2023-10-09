@@ -19,6 +19,8 @@ This README generator is a simple application written in ES6 with node which all
 - Saves time and effort in creating and formatting README files.
 - Easy and straightforward to use
 
+![Screenshot of prompt questions](./assets/image.png)
+
 ## Getting Started
 To use this application, one must first ->
 

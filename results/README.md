@@ -1,8 +1,8 @@
-# Test run v2
+# Project 1
   
   ## Description
   
-  this is the second test run, made changes to the license path 
+  this project is just a tester to show that this application works
   
   ## Table of Contents
   
@@ -15,19 +15,19 @@
   
   ## Installation
   
-  git clone to get this
+  ----
   
   ## Usage
   
-  use this to generate a readme
+  ----
   
   ## Contributing
   
-  if you want to contribute to this project, please feel free to message me on github or email me
+  guidelines
   
   ## Tests
   
-  node index.js to run this application
+  test
   
   ## License
   
