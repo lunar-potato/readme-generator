@@ -54,9 +54,10 @@ const questions = [
   },
 ];
 
-// Function to write README file
-function writeToFile(fileName, data) {
-  fs.writeFileSync(fileName, data);
+// Function to write README file and saving to results folder
+function writeToFile(folderPath, fileName, data) {
+  const filePath = path.join(folderPath, fileName);
+  fs.writeFileSync(filePath, data);
 }
 
 // Function to initialize program
@@ -82,9 +83,11 @@ function init() {
 
       // Calling a function to generate README with userData
       const readmeContent = generateReadme(userData);
+      // Specifying where the README file is going to be saved
+      const folderPath = "./results"
 
       // Writing final readme to a file
-      writeToFile("README.md", readmeContent);
+      writeToFile(folderPath, "README.md", readmeContent);
       console.log("README.md has been generated succesfully! :D");
     })
     .catch(function (err) {
