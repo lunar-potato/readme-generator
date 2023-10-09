@@ -88,7 +88,7 @@ function init() {
 
       // Writing final readme to a file
       writeToFile(folderPath, "README.md", readmeContent);
-      console.log("README.md has been generated succesfully! :D");
+      console.log("README.md has been generated succesfully! Navigate to your RESULTS folder to see your README :D");
     })
     .catch(function (err) {
       console.log(`An error occurred: ${err}`);
